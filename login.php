@@ -90,7 +90,8 @@ body {
          width="120" 
          class="mb-3"
          style="filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));">
-    <h3 class="mb-4 fw-bold">Login</h3>
+    <h3 class="mb-4 fw-bold">Selamat Datang!</h3>
+    <h5 class="mb-3">Silakan masuk untuk melanjutkan</h5>
     <?php if(isset($error)) echo "<div class='alert alert-danger'>$error</div>"; ?>
     <form method="POST">
         <div class="mb-3 text-start">
@@ -105,5 +106,3 @@ body {
     </form>
     <p class="mt-3 mb-0">Belum punya akun? <a href="register.php">Daftar di sini</a></p>
 </div>
-
-<?php include("includes/footer.php"); ?>

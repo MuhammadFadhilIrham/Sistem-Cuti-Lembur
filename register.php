@@ -113,5 +113,3 @@ body {
         Sudah punya akun? <a href="login.php">Login di sini</a>
     </p>
 </div>
-
-<?php include("includes/footer.php"); ?>
